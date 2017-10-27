@@ -1,0 +1,23 @@
+services:
+  webapplication5:
+    build:
+      args:
+        source: obj/Docker/empty/
+      context: C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5
+      dockerfile: Dockerfile
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+    image: webapplication5:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - 80/tcp
+    volumes:
+    - c:\users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5:/app:rw
+    - C:\Users\bredwa\vsdbg:/remote_debugger:ro
+version: '3.0'

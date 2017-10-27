@@ -1,0 +1,1 @@
+C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

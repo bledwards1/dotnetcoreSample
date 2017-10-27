@@ -1,0 +1,12 @@
+C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=WebApplication5
+--content-root=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5
+--file=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5\Views\Home\About.cshtml
+--file=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5\Views\Home\Contact.cshtml
+--file=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5\Views\Home\Index.cshtml
+--file=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5\Views\Shared\Error.cshtml
+--file=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5\Views\Shared\_Layout.cshtml
+--file=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5\Views\_ViewImports.cshtml
+--file=C:\Users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5\Views\_ViewStart.cshtml

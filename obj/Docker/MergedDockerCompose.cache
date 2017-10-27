@@ -1,0 +1,11 @@
+services:
+  webapplication5:
+    build:
+      context: c:\users\bredwa\documents\visual studio 2017\Projects\WebApplication5\WebApplication5
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: webapplication5
+    ports:
+    - 80/tcp
+version: '3.0'
